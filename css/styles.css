@@ -1,24 +1,38 @@
-.all{
+.about-me{
+  border: 50px rebeccapurple;
+  padding: 10px;
   text-align: center;
+  display: block;
   margin: auto;
   float: center;
-  background-color: rgb(254, 254, 93);
-  font-size: medium;
+  background-color: rgb(103, 208, 128);
+  font-size: large;
   margin: auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
   font-style: sans-serif;
+  box-sizing: border-box;
+  width: 75%;
 }
 
-.about-me{
-  
+.all{
+  background-color: rgb(127, 151, 219);
+  margin: auto;
+  border: 10px;
+  border: 20px aquamarine;
 }
-ul.projects{
+ol.projects{
   float: left;
   text-align: left;
   font-size: large;
   font-style: serif;
+  background-color: indianred;
+  width: 50%;
+  margin: auto;
 }
 
-.bold{
+.bold { 
+  font-size: larger;
 
 }
 .img{
@@ -26,4 +40,7 @@ ul.projects{
   width: 25%;
   object-fit: contain;
   object-position: 50% 50%;
+}
+.fun {
+  font-style: italic;
 }
