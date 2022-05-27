@@ -1,3 +1,21 @@
-title{
-  width: 100px;
+.all{
+  text-align: center;
+  margin: auto;
+  float: center;
+  background-color: rgb(254, 254, 93);
+  font-size: medium;
+  margin: auto;
+
+}
+
+.about-me{
+  
+}
+ul.projects{
+  float: left;
+  text-align: left;
+}
+
+.bold{
+  
 }
