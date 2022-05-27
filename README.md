@@ -2,7 +2,7 @@
 
 #### By Donovan Weber
 
-#### Portfolio of my work at Epicodus and About Me_
+#### Portfolio of my work at Epicodus and About Me
 
 ## Technologies Used
 
