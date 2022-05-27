@@ -22,11 +22,15 @@
   width: 75%;
 }
 
-.all{
+h2.all{
+  padding-left: 33%;
   background-color: rgb(127, 151, 219);
-  
-  border: 20px orange;
+  border: 3px rgb(123, 47, 9);
+  margin: auto;
+  border-style: double;
+  box-sizing: border-box;
 }
+
 
 ol.projects{
   float: left;
@@ -35,8 +39,10 @@ ol.projects{
   font-style: serif;
   background-color: indianred;
   width: 100%;
-  margin: 3px;
-  
+  margin: auto;
+  border:4px yellowgreen;
+  border-radius: 4px;
+  border-style: ridge;
 }
 
 .hobbies {
@@ -45,8 +51,7 @@ ol.projects{
   background-color: fuchsia;
   padding: 4px;
   width: 100%;
-  min-height: auto;
-  margin: 3px;
+  margin: auto;
   border-style: border-box;
 }
 .bold { 
@@ -66,13 +71,7 @@ ol.projects{
 }
 
 
-sauce.h1 {
+h1.sauce {
   font-size: xx-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 10px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  width: fit-content;
-  box-sizing: border-box;
 }
