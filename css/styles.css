@@ -1,3 +1,8 @@
+.page{
+  background-color: lightpink;
+  height: auto;
+  width: auto;
+}
 .about-me{
   text-align: center;
   
@@ -10,8 +15,8 @@
   margin: auto;
   float: center;
   font-size: large;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 4px;
+  margin-bottom: 4px;
   font-style: sans-serif;
   box-sizing: border-box;
   width: 75%;
@@ -19,7 +24,7 @@
 
 .all{
   background-color: rgb(127, 151, 219);
-  margin: auto; 
+  
   border: 20px orange;
 }
 
@@ -29,11 +34,21 @@ ol.projects{
   font-size: large;
   font-style: serif;
   background-color: indianred;
-  width: 33%;
-  min-height: auto;
-
+  width: 100%;
+  margin: 3px;
+  
 }
 
+.hobbies {
+  float: left;
+  border: 5px yellowgreen;
+  background-color: fuchsia;
+  padding: 4px;
+  width: 100%;
+  min-height: auto;
+  margin: 3px;
+  border-style: border-box;
+}
 .bold { 
   font-size: larger;
 
@@ -50,17 +65,8 @@ ol.projects{
   font-style: italic;
 }
 
-.hobbies {
-  float: left;
-  border: 10px yellowgreen;
-  background-color: fuchsia;
-  padding: 10px;
-  width: 67%;
-  min-height: auto;
-  margin: auto;
-}
 
-.h1{
+sauce.h1 {
   font-size: xx-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 10px;
