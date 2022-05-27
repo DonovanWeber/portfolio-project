@@ -19,9 +19,8 @@
 
 .all{
   background-color: rgb(127, 151, 219);
-  margin: auto;
-  border: 10px;
-  border: 20px aquamarine;
+  margin: auto; 
+  border: 20px orange;
 }
 
 ol.projects{
@@ -30,9 +29,9 @@ ol.projects{
   font-size: large;
   font-style: serif;
   background-color: indianred;
-  width: 30%;
-  height: auto;
-  margin: auto;
+  width: 33%;
+  min-height: auto;
+
 }
 
 .bold { 
@@ -53,11 +52,21 @@ ol.projects{
 
 .hobbies {
   float: left;
+  border: 10px yellowgreen;
+  background-color: fuchsia;
+  padding: 10px;
+  width: 67%;
+  min-height: auto;
+  margin: auto;
 }
 
 .h1{
   font-size: xx-large;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  border: 4px indigo;
-
+  padding: 10px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: fit-content;
+  box-sizing: border-box;
 }
